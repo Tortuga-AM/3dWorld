@@ -112,10 +112,29 @@ h1 {
 
 /* TITLE BAR */
 
+#user-bar {
+  position: fixed;
+  
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 48px;
+
+  background-color: #3a5177;
+  color: white;
+  padding: 8px;
+
+  box-shadow: 0px 0px 1px black;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
 #title-bar {
   position: fixed;
 
-  top: 0;
+  top: 64px;
   left: 0px;
   right: 0;
   height: 48px;
